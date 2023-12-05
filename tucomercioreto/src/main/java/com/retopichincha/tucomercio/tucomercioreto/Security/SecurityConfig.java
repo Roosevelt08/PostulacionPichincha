@@ -13,7 +13,14 @@ public class SecurityConfig {
            
             .authorizeExchange()
                 .pathMatchers("/api/tipo-cambio/registrar").authenticated()
-                .
+                .anyExchange().permitAll()
+                .and()
+            .csrf().disable()
+            .httpBasic().disable()
+            .formLogin().disable()
+            .logout().disable()
+            .headers().frameOptions().disable();
+        return http.build();
     }
     
 } 
