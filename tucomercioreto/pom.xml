@@ -51,7 +51,25 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		</dependencies>
+		
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.2.11.RELEASE</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.2.11.RELEASE</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.2.11.RELEASE</version>
+    </dependency>
+  </dependencies>
 		<dependency>
     		<groupId>org.projectreactor</groupId>
     		<artifactId>reactor-spring</artifactId>

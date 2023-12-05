@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "coc-java": "^1.15.2",
     "maven": "^5.0.0"
   }
 }
